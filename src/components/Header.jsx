@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import "../css/header.css"
 import moon from "../assets/images/icon-moon.svg"
 import sun from "../assets/images/icon-sun.svg"

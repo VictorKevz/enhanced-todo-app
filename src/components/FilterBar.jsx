@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import "../css/filters.css";
 
 function FilterBar({ filter, setFilter, onClear, items, completedItems,isDark }) {

@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { bounceIn,entry } from "../variants";
 import "../css/todoList.css";
 import deleteIcon from "../assets/images/icon-cross.svg";
 import checkIcon from "../assets/images/icon-check.svg";

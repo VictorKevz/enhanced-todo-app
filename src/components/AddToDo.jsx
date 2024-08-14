@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
 import "../css/addToDo.css";
 import error from "../assets/images/error.svg";
 
 function AddToDo({ newItem, setNewItem, onAdd, isDark }) {
-  
+
   const [isValid, setValid] = useState(true);
 
   const handleChange = (e) => {

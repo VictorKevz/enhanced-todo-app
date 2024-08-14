@@ -19,7 +19,7 @@
 
 }
 .item{
-    color: var(--Light-Grayish-Blue);
+    color: #fff;
     transition: .3s ease-in-out;
     letter-spacing: 0.02rem;
 
