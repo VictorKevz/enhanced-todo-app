@@ -1,0 +1,63 @@
+.addTodo-container {
+  width: 100%;
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+  background-color: #25283c;
+  padding-left: 2.4rem;
+  height: 6.4rem;
+  border-radius: 0.4rem;
+  margin-top: 4.1rem; 
+  position: relative;
+}
+.circle {
+  border-radius: 50%;
+  width: clamp(2.1rem, 10vw, 2.6rem);
+  height: clamp(2.1rem, 8vw, 2.6rem);
+  border: 2px solid var(--Very-Dark-Grayish-Blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease-in;
+}
+label{
+  width: 100%;
+}
+.form-input {
+  outline: none;
+  width: 100%;
+  height: 6.4rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #CDCFE7;
+}
+.form-input::placeholder{
+    color: #75788F;
+    font-size: 1.7rem;
+    letter-spacing: .02rem;
+}
+.form-input:hover {
+  cursor: pointer;
+  caret-color: #5c77b4;
+}
+.circle:hover {
+  border: 2px solid #a479f5;
+  cursor: pointer;
+}
+.error{
+  border: 2px solid rgb(200, 57, 57);
+}
+.error-message{
+  color:rgb(200, 57, 57) ;
+  font-weight: 500;
+  position: absolute;
+  right: 2.4rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.error-icon{
+  transform: scale(.8);
+}

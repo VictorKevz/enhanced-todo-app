@@ -1,0 +1,18 @@
+.header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title{
+    font-size: 3.92rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.58rem;
+    margin-top: .75px;
+    color: var(--Very-Light-Gray);
+}
+.toggle-btn{
+    border: none;
+    background: none;
+}

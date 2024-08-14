@@ -1,0 +1,38 @@
+.outer-container {
+  display: flex;
+  min-height:800px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background-image: url("./assets/images/bg-desktop-dark.jpg");
+  background-color: var(--Very-Dark-Blue);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%; 
+  padding: 0 2.4rem;
+  overflow-x: hidden;
+
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  width: 100%;
+  min-height: 675px;
+  position: relative;
+  margin-top: 3.1rem;
+  z-index: 10;
+
+
+}
+.drag{
+  text-align: center;
+  margin-top: 5.1rem;
+  color: #6C6E86;
+  font-weight: 400;
+  font-size: 1.35rem;
+  letter-spacing: .0095rem;
+
+}

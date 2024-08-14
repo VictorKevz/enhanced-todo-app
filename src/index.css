@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+:root {
+  /* ### Light Theme */
+
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+  --Light-Grayish-Blue: hsl(233, 11%, 84%);
+  --Dark-Grayish-Blue: hsl(236, 9%, 61%);
+  --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+
+  /* ### Dark Theme */
+
+  --Very-Dark-Blue: hsl(235, 21%, 11%);
+  --Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+  --Light-Grayish-Blue: hsl(234, 39%, 85%);
+  --Light-Grayish-Blue-hover: hsl(236, 33%, 92%);
+  --Dark-Grayish-Blue: hsl(234, 11%, 52%);
+  --Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+  --Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+}
+input,
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+li,
+p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+fieldset,
+button {
+  border: none;
+  background: none;
+}
+/* ---------------STYLES FOR LIGHT MODE--------------------------- */
+.bg-light{
+  background-color: #FAFAFA;
+  background-image: url("./assets/images/bg-desktop-light.jpg");
+
+}
+
+.bg-light-card{
+  background-color: #FAFAFA;
+  box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.237);
+transition: .3s ease-in;
+}
+
+.border-light{
+  border-color: #E6E5E9;
+}
+.text-light{
+  color: #49485A;
+}
+.text-light:hover{
+  color: #4C4B5B;
+}
+@media (width <= 860px) {
+  .outer-container {
+    background-image: none;
+    position: relative;
+    min-height: 100vh;
+  }
+  .outer-container::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 250px;
+    background-image: url("./assets/images/bg-mobile-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-light::before{
+    background-image: url("./assets/images/bg-mobile-light.jpg");
+ 
+  }
+  .inner-container{
+    min-height: 800px;
+  } 
+  .delete-item {
+    opacity: 1;
+  }
+  .item {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .middle-filters-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 2rem auto 0 auto;
+    margin-left: 0;
+    justify-content: center;
+    background-color: #25283c;
+    padding: 1.85rem 2.4rem;
+    border-radius: .4rem;
+
+  }
+  .bg-light-filter{
+    background-color: #FAFAFA;
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.237);
+  
+  }
+  .items-container {
+    gap: 1.2rem;
+  }
+}
