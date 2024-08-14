@@ -20,7 +20,7 @@
   flex-direction: column;
   max-width: 540px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 800px;
   position: relative;
   margin-top: 7.6rem;
   z-index: 10;
