@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 2.3rem;
+  gap: 1.3rem;
   padding: 1.9rem 2.4rem 1.85rem 2.4rem;
   border-bottom: 1px solid #373a4e;
   position: relative;
@@ -22,6 +22,18 @@
     color: #fff;
     transition: .3s ease-in-out;
     letter-spacing: 0.02rem;
+
+}
+.edit-icon{
+   margin-top: 5px;
+}
+.editing-input{
+font-size: 1.7rem;
+  color: #CDCFE7;
+  width: 100%;
+  height: inherit;
+  outline: none;
+  caret-color: #5c77b4;
 
 }
 .delete-item{
@@ -47,5 +59,8 @@
 }
 .item:hover{
     color: var(--Light-Grayish-Blue-hover);
+}
+.editing:hover{
+    caret-color: #A479F5;
 }
 

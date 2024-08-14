@@ -31,10 +31,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   width: 100%;
 }
-input,
-button {
-  cursor: pointer;
-}
+
 li {
   list-style-type: none;
   cursor: pointer;
@@ -45,9 +42,10 @@ p {
   font-weight: 300;
 }
 fieldset,
-button {
+button,input {
   border: none;
   background: none;
+  cursor: pointer;
 }
 /* ---------------STYLES FOR LIGHT MODE--------------------------- */
 .bg-light{
@@ -67,6 +65,14 @@ transition: .3s ease-in;
 }
 .text-light{
   color: #49485A;
+}
+.item.light-text{
+  color: #49485A;
+ 
+}
+.editing{
+  color:#5c77b4 ;
+  font-weight: 300;
 }
 .text-light:hover{
   color: #4C4B5B;
@@ -101,7 +107,10 @@ transition: .3s ease-in;
     opacity: 1;
   }
   .item {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     font-weight: 500;
   }
   .middle-filters-wrapper {

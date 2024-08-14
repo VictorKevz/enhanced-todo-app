@@ -12,8 +12,8 @@
 }
 .circle {
   border-radius: 50%;
-  width: clamp(2.1rem, 10vw, 2.6rem);
-  height: clamp(2.1rem, 8vw, 2.6rem);
+  width:  2.6rem;
+  height:  2.6rem;
   border: 2px solid var(--Very-Dark-Grayish-Blue);
   display: flex;
   align-items: center;
@@ -31,6 +31,8 @@ label{
   border: none;
   font-size: 1.8rem;
   color: #CDCFE7;
+  caret-color: #5c77b4;
+
 }
 .form-input::placeholder{
     color: #75788F;

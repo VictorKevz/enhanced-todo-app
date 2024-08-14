@@ -68,6 +68,7 @@ function App() {
           />
           <ToDoList
             items={items}
+            setItems={setItems}
             onDelete={deleteItems}
             completedItems={completedItems}
             setCompletedItems={setCompletedItems}

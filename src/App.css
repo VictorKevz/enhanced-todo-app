@@ -18,7 +18,7 @@
 .inner-container {
   display: flex;
   flex-direction: column;
-  max-width: 540px;
+  max-width: 550px;
   width: 100%;
   min-height: 800px;
   position: relative;
